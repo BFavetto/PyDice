@@ -1,0 +1,62 @@
+key,value,description
+numPeriods,100,The number of periods
+fosslim,6000,Maximum cumulative extraction fossil fuels (GtC)
+tstep,5,Years per period
+ifopt,0,Indicator where optimized is 1 and base is 0
+elasmu,1.45,Elasticity of marginal utility of consumption
+prstp,0.015,Initial rate of social time preference per year
+gama,0.3,Capital elasticity in production function
+pop0,7403,Initial world population 2015 (millions)
+popadj,0.134,Growth rate to calibrate to 2050 pop projection
+popasym,11500,Asymptotic population (millions)
+dk,0.1,Depreciation rate on capital (per year)
+q0,105.5,Initial world gross output 2015 (trill 2010 USD)
+k0,223,Initial capital value 2015 (trill 2010 USD)
+a0,5.115,Initial level of total factor productivity
+ga0,0.076,Initial growth rate for TFP per 5 years
+dela,0.005,Decline rate of TFP per 5 years
+gsigma1,-0.015,Initial growth of sigma (per year)
+dsig,-0.001,Decline rate of decarbonization (per period)
+eland0,2.6,Carbon emissions from land 2015 (GtCO2 per year)
+deland,0.115,Decline rate of land emissions (per period)
+e0,35.85,Industrial emissions 2015 (GtCO2 per year)
+miu0,0.03,Initial emissions control rate for base case 2015
+mat0,851,Initial Concentration in atmosphere 2015 (GtC)
+mu0,460,Initial Concentration in upper strata 2015 (GtC)
+ml0,1740,Initial Concentration in lower strata 2015 (GtC)
+mateq,588, Equilibrium concentration atmosphere  (GtC)
+mueq,360,Equilibrium concentration in upper strata (GtC)
+mleq,1720,Equilibrium concentration in lower strata (GtC)
+b12,0.12,Carbon cycle transition matrix
+b23,0.007,Carbon cycle transition matrix
+b11,,"Carbon cycle transition matrix, 1-b12"
+b21,,"Carbon cycle transition matrix,b12*mateq/mueq"
+b22,,"Carbon cycle transition matrix, 1-b21-b23"
+b32,,"Carbon cycle transition matrix, b23*mueq/mleq"
+b33,,"Carbon cycle transition matrix,1 - b32"
+sig0,,Carbon intensity 2010 (kgCO2 per output 2005 USD 2010)
+t2xco2,3.1,Equilibrium temp impact (oC per doubling CO2)
+fex0,0.5,2010 forcings of non-CO2 GHG (Wm-2)
+fex1,1,2100 forcings of non-CO2 GHG (Wm-2)
+tocean0,0.0068,Initial lower stratum temp change (C from 1900)
+tatm0,0.85,Initial atmospheric temp change (C from 1900)
+c1,0.1005,Climate equation coefficient for upper level
+c3,0.088,Transfer coefficient upper to lower stratum
+c4,0.025,Transfer coefficient for lower level
+fco22x,3.6813,Forcings of equilibrium CO2 doubling (Wm-2)
+a10,0,Initial damage intercept
+a20,0.00236,Initial damage quadratic term
+a1,0,Damage intercept
+a2,0.00236,Damage quadratic term
+a3,2,Damage exponent
+expcost2,2.6,Exponent of control cost function
+pback,550,Cost of backstop 2010$ per tCO2 2015
+gback,0.025,Initial cost decline backstop cost per period
+limmiu,1.2,Upper limit on control rate after 2150
+tnopol,45,Period before which no emissions controls base
+cprice0,2,Initial base carbon price (2010$ per tCO2)
+gcprice,0.02,Growth rate of base carbon price per year
+scale1,0.030245526,Multiplicative scaling coefficient
+scale2,-10993.704,Additive scaling coefficient
+lam,,"Climate Model Parameter,fco22x/ t2xco2"
+optlrsav,,"Optimal long-run savings rate used for transversality,(dk + .004)/(dk + .004*elasmu + prstp)*gama"
